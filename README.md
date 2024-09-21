@@ -35,7 +35,7 @@
 GitHub의 Pin 기능은 최대 6개까지만 지원하지만, 이외의 프로젝트들도 아래에서 확인하실 수 있습니다.
 
 
-### 1. [**[ELK] MySQL과 ELK 스택을 이용한 타이타닉 데이터 분석**](https://github.com/your-repo/titanic-ELK)
+### 1. [**[ELK] MySQL과 ELK 스택을 이용한 타이타닉 데이터 분석**](https://github.com/B1ABOA/titanic_elk)
 - **기술 스택:** MySQL, Elasticsearch, Logstash, Kibana, Python
 - **설명:** 타이타닉 데이터셋을 분석하여 생존자 예측 모델을 구축하고, ELK 스택을 활용한 데이터 시각화 대시보드를 구현했습니다.
 - **주요 기능:**
@@ -43,7 +43,7 @@ GitHub의 Pin 기능은 최대 6개까지만 지원하지만, 이외의 프로�
   - Logstash를 통한 데이터 파이프라인 구축
   - Kibana를 사용한 실시간 데이터 시각화
 
-### 2. [**ubuntu-password-policy Public**](https://github.com/your-repo/ubuntu-password-policy)
+### 2. [**ubuntu-password-policy Public**](https://github.com/HongMinYeong/ubuntu-password-policy)
 - **기술 스택:** Linux, PAM (Pluggable Authentication Modules), Bash
 - **설명:** 비밀번호 강도와 품질을 보장하기 위한 `pam_pwquality` 모듈의 설정입니다. Ubuntu 시스템에서 보안 강화를 목적으로 비밀번호 정책을 설정 및 관리합니다.
 - **주요 기능:**
