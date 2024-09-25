@@ -64,6 +64,19 @@ GitHub의 Pin 기능은 최대 6개까지만 지원하지만, 이외의 프로�
   - 평균 부하 및 시스템 성능 지표 실시간 모니터링
   - 스트레스 테스트를 통한 시스템 부하 시뮬레이션
   - 성능 데이터 수집 및 분석 도구 활용
+ 
+### 5. [**Trivy 보안 점검: GitHub Actions & feedparser를 활용한 최신 블로그 게시글 수집 자동화 시스템 구축**](https://github.com/HongMinYeong/Docker/tree/main/container_vulnerability)
+- **기술 스택:** Linux, Trivy, Docker, Bash, Python, GitHub Actions, feedparser
+- **설명:**  이 프로젝트는 두 가지 주요 기능을 포함합니다.
+  - Trivy를 사용하여 Docker 이미지와 파일 시스템의 보안 취약점을 점검하는 방법을 다룹니다. -> CI/CD 파이프라인에 통합하여 자동으로 보안 점검을 수행하고 취약점을 사전에 발견하는 것을 목표로 합니다.
+  - GitHub Actions와 feedparser를 활용하여 다양한 블로그의 최신 게시글을 자동으로 수집하는 시스템을 구축합니다. -> 이를 통해 블로그 콘텐츠를 쉽게 추적하고 관리할 수 있습니다.
+- **주요 기능:**
+  - Docker 이미지의 취약점 스캔 및 보고
+  - CI/CD 환경에 통합하여 자동화된 보안 점검 수행
+  - 취약점 발견 시 알림 및 보고서 생성
+  - RSS 피드를 통해 블로그 게시글 자동 수집
+  - GitHub Actions를 이용한 정기적인 데이터 업데이트
+  - 수집된 게시글을 데이터베이스 또는 파일에 저장
 
 <br>
 
