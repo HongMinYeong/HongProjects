@@ -140,6 +140,23 @@ GitHub의 Pin 기능은 최대 6개까지만 지원하지만, 이외의 프로�
   - 부하 분산 및 고가용성을 위한 Pod 복제 및 관리
 </details>
 
+<details>
+<summary>8. 테스트 및 운영 서버의 자동 배포 아키텍처 구축 </summary>
+
+<br>
+
+- **레포지토리 바로가기:** [https://github.com/HongMinYeong/Docker/tree/main/jenkins]
+- **기술 스택:** Docker, Jenkins, Spring Boot, SSH, inotify-tools
+- **설명:** 이 프로젝트는 테스트 서버에서 운영 서버로 Spring Boot 애플리케이션을 자동으로 배포하는 아키텍처를 구축합니다. Jenkins를 사용하여 CI/CD 파이프라인을 설정하고, inotify-tools를 활용하여 파일 변경 시 자동으로 배포가 이루어지도록 구성했습니다.
+- **주요 기능:**
+  - Jenkins를 통한 CI/CD 파이프라인 설정
+  - SSH 키를 이용한 비밀번호 없는 원격 서버 접근
+  - inotify-tools를 통한 JAR 파일 변경 감지
+  - 운영 서버에서의 Spring Boot 애플리케이션 자동 재시작
+  - ngrok을 통한 외부 접근 설정
+
+</details>
+
 
 <br>
 
