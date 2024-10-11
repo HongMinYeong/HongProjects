@@ -156,6 +156,21 @@ GitHub의 Pin 기능은 최대 6개까지만 지원하지만, 이외의 프로�
   - ngrok을 통한 외부 접근 설정
 
 </details>
+<details> 
+  <summary>9. Jenkins 기반 CI/CD 파이프라인 구축 및 S3 자동 배포</summary> 
+  <br>
+  
+- **레포지토리 바로가기:**  [https://github.com/MSD-CI-CD-pipeline/AWS-CI-CD-Pipeline]
+- **기술 스택:** Jenkins, AWS S3, AWS EC2, Spring Boot, SSH, AWS CLI
+- **설명:** 이 프로젝트는 Jenkins 기반의 CI/CD 파이프라인을 구축하고, AWS S3 및 EC2를 사용하여 Spring Boot 애플리케이션을 자동으로 배포하는 아키텍처를 설계합니다. Jenkins는 코드 변경 시 자동으로 빌드하고, 빌드된 JAR 파일을 S3에 업로드한 후, EC2 인스턴스에서 이를 가져와 배포합니다. IAM 권한을 부여하여 S3에 접근할 수 있도록 설정했습니다.
+- **주요 기능:**
+  - Jenkins를 통한 CI/CD 파이프라인 설정
+- Spring Boot 애플리케이션 빌드 및 S3로 JAR 파일 업로드
+- EC2 인스턴스에서 S3에 있는 JAR 파일 다운로드 및 실행
+- SSH 키를 이용한 비밀번호 없는 EC2 원격 서버 접근
+- IAM 역할을 통해 EC2 인스턴스의 S3 접근 권한 부여
+- AWS CLI를 이용한 S3 및 EC2 명령어 실행
+</details>
 
 
 <br>
